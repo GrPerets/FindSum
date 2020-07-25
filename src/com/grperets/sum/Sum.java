@@ -4,9 +4,9 @@ import java.math.BigInteger;
 
 public class Sum {
     /**
-     *
+     *This method finds the sum of the digits of a number
      * @param bigInt
-     * @return
+     * @return Sum of the digits of a number
      */
     public static BigInteger sum(BigInteger bigInt){
         BigInteger [] plus = bigInt.divideAndRemainder(BigInteger.valueOf(10));
